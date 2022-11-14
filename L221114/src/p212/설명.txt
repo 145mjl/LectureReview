@@ -1,0 +1,13 @@
+public class Main {
+	public static void main(String[] args){
+		System.out.println(args[0]);
+		System.out.println(args[1]);
+		System.out.println(args[2]);
+	}
+}
+
+cmd 컴파일하기 - 자바파일 경로로 이동 - javac 파일명.java
+메인메서드가 호출되면 내부 코드를 한줄씩 실행한다
+main(String[] args)
+메서드명() - 메서드의 형태
+String[] args - String타입 배열 args
