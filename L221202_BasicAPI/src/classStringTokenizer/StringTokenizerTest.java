@@ -13,9 +13,7 @@ public class StringTokenizerTest {
 			System.out.println(token);
 		}
 		System.out.println();
-		//이제 토큰이 없음
 		
-		//따라서 다시한번 나눠보고싶다면 내용이 같은 새 인스턴스를 참조시켜야한다
 		st=new StringTokenizer(text,"/");
 		while(st.hasMoreTokens()) {
 			String token=st.nextToken();
