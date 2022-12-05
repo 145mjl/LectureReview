@@ -13,8 +13,9 @@ public class A {
 		}
 	}
 }
-//내부클래스는 인스턴스에 연결되어 있으므로 정적 멤버를 선언할수없다
-//라고 하는데 선언가능함
+//내부클래스는 인스턴스에 연결되어 있으므로 정적 멤버를 선언할 수 없다
+//
+
 //Inner Classes
 //As with instance methods and variables, 
 //an inner class is associated with an instance of its enclosing class and has direct access to that object's methods and fields. 
