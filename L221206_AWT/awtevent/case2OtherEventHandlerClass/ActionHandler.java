@@ -1,4 +1,4 @@
-package case2;
+package case2OtherEventHandlerClass;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

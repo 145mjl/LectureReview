@@ -1,4 +1,4 @@
-package case2;
+package case2OtherEventHandlerClass;
 
 import java.awt.BorderLayout;
 import java.awt.Button;
