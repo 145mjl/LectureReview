@@ -9,6 +9,5 @@
 	<classpathentry kind="src" path="LayoutManager"/>
 	<classpathentry kind="src" path="awtevent"/>
 	<classpathentry kind="src" path="Component"/>
-	<classpathentry kind="src" path="Example"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
