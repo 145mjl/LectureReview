@@ -12,7 +12,7 @@ class Board{
 		this.content=content;
 	}
 }
-public class VectorEx {
+public class PrintVector {
 	public static void main(String[] args) {
 		List<Board> list=new Vector<Board>();
 		list.add(new Board("제목1","내용1"));

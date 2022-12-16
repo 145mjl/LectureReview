@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="collectionInterface"/>
 	<classpathentry kind="src" path="mapInterface"/>
+	<classpathentry kind="src" path="collection2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
