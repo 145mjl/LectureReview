@@ -12,9 +12,9 @@ public class ClassInfoExample {
 	public static void main(String[] args) {
 		Car car =new Car(100);
 		Class clazz=car.getClass();
-		System.out.println(clazz.getName());
-		System.out.println(clazz.getSimpleName());
-		System.out.println(clazz.getPackage().getName());
+		System.out.println(clazz.getName());//패키지이름.클래스이름
+		System.out.println(clazz.getSimpleName());//클래스이름만
+		System.out.println(clazz.getPackage().getName());//패키지이름
 	}
 }
 //검색 : raw type
