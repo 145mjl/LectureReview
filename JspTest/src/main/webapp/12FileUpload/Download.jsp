@@ -26,7 +26,7 @@
 		response.setHeader("Content-Disposition","attachment; filename=\""+originalFilename+"\"");
 		response.setHeader("Content-length", ""+file.length());
 		
-		out.clear();
+		out.clear();//서블릿 (.java)에서 작성할 경우 안 써도 됨
 		
 		OutputStream outStream=response.getOutputStream();
 		

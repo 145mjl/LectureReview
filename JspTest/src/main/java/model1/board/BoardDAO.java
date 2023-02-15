@@ -78,7 +78,7 @@ public class BoardDAO extends JdbcConnect{
 			sb.append(map.get("searchField").toString());
 			sb.append(" LIKE ");
 			sb.append("'%");
-			sb.append(map.get("search").toString());
+			sb.append(map.get("searchWord").toString());
 			sb.append("%' ");
 		}
 		sb.append("ORDER BY num DESC");
