@@ -7,7 +7,7 @@
 	pageEncoding="UTF-8"%>
 <%
 String saveDirectory = application.getRealPath("/Uploads");
-int maxPostSize = 1024 * 1000;
+int maxPostSize = 1024 * 10000;
 String encoding = "UTF-8";
 
 try{

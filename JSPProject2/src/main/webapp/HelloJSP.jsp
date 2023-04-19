@@ -16,5 +16,9 @@
 		<%
 		out.println(str2 + str1 + "입니다.");
 		%>
+	</p>
+	<div>
+		<button type="button" onclick="location.href='./08Board/List.jsp';">게시판으로 이동</button>
+	</div>
 </body>
 </html>

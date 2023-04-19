@@ -2,6 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
   <display-name>MustHaveJSP</display-name>
   <welcome-file-list>
+  	<welcome-file>HelloJSP.jsp</welcome-file>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -33,11 +34,11 @@
 	</context-param>
 	<context-param>
 		<param-name>OracleId</param-name>
-		<param-value>c##musthave</param-value>
+		<param-value>c##green</param-value>
 	</context-param>
 	<context-param>
 		<param-name>OraclePwd</param-name>
-		<param-value>1234</param-value>
+		<param-value>green1234</param-value>
 	</context-param>
 	
 	<session-config>
@@ -67,7 +68,7 @@
 	</context-param>
 	<context-param>
 		<param-name>maxPostSize</param-name>
-		<param-value>1024000</param-value>
+		<param-value>10240000</param-value>
 	</context-param>
 	
 	<servlet>

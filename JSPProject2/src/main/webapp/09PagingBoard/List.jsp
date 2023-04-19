@@ -1,6 +1,6 @@
 <%@ page import="java.util.*"%>
 <%@ page import="model1.board.*"%>
-<%@ page import="utils.*"%>
+<%@ page import="utils.BoardPage"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%

@@ -54,9 +54,9 @@ public class PassController extends HttpServlet {
 					FileUtil.deleteFile(req, "/Uploads", saveFileName);
 				}
 				JSFunction.alertLocation(resp, "삭제되었습니다.", "../mvcboard/list.do");
-			} else {
-				JSFunction.alertBack(resp, "비밀번호 검증에 실패했습니다.");
 			}
+		} else {
+			JSFunction.alertBack(resp, "비밀번호 검증에 실패했습니다.");
 		}
 	}
 }
