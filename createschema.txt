@@ -1,0 +1,8 @@
+/as sysdba
+create user c##[id] identified by [pw];
+grant [권한] to c##[id];
+grant connect, resource, dba to c##[id];
+commit;
+select * from all_users;
+
+@@경로\sql파일.sql

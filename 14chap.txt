@@ -1,0 +1,24 @@
+DROP TABLE mvcboard CASCADE CONSTRAINTS;
+
+CREATE TABLE mvcboard(
+	idx number primary key,
+	name varchar2(50) not null,
+	title varchar2(200) not null,
+	content varchar2(2000) not null,
+	postdate date default sysdate not null,
+	ofile varchar2(200),
+	sfile varchar2(30),
+	downcount number(5) default 0 not null,
+	pass varchar2(50) not null,
+	visitcount number default 0 not null
+);
+
+select * from MVCBOARD;
+
+--더미 테이터(06Board의 더미데이터에서 시퀀스 생성 필수)
+
+insert into mvcboard (idx,name,title,content,pass) values (seq_board_num.nextval,'작성자1','자료실 제목1','내용1','1234');
+insert into mvcboard (idx,name,title,content,pass) values (seq_board_num.nextval,'작성자2','자료실 제목2','내용2','1234');
+insert into mvcboard (idx,name,title,content,pass) values (seq_board_num.nextval,'작성자3','자료실 제목3','내용3','1234');
+insert into mvcboard (idx,name,title,content,pass) values (seq_board_num.nextval,'작성자4','자료실 제목4','내용4','1234');
+insert into mvcboard (idx,name,title,content,pass) values (seq_board_num.nextval,'작성자5','자료실 제목5','내용5','1234');
