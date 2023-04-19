@@ -3,7 +3,6 @@ DROP TABLE board CASCADE CONSTRAINTS;
 DROP TABLE myfile CASCADE CONSTRAINTS;
 DROP SEQUENCE seq_board_num;
 
-
 CREATE TABLE member(
 	id varchar2(10) not null,
 	pass varchar2(10) not null,
@@ -43,8 +42,11 @@ nomaxvalue
 nocycle
 nocache;
 
+--sql plus에서 insert하게 되는 경우 한글 사용하면 깨져서 들어감
 INSERT INTO member VALUES ('nakja','1234','관리자',sysdate);
-INSERT INTO member VALUES ('musthave','1234','머스트해브',sysdate);
+
+INSERT INTO member VALUES ('musthave','1234','musthave',sysdate);
+
 
 --더미 데이터 (1개)
 INSERT INTO board VALUES (seq_board_num.nextval, '글제목입니다1','글내용입니다1','musthave', sysdate, 0);
@@ -63,8 +65,9 @@ BEGIN
     COMMIT;
 END;
 
-delete from BOARD where content='';
+commit;
 
-select * from MEMBER;
-select * from BOARD;
-select * from MYFILE;
+--delete from BOARD where content='';
+--select * from MEMBER;
+--select * from BOARD;
+--select * from MYFILE;
